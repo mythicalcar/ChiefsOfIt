@@ -1,12 +1,6 @@
-# 📄 JSON Pagina's voor WordPress Divi  
+# 📄 CHIEFS of IT Repo  
 
-Welkom bij deze repository! Hierin zijn WordPress-pagina's opgeslagen als JSON-bestanden, speciaal geoptimaliseerd voor gebruik met de Divi Builder. In dit document wordt uitgelegd wat deze repository inhoudt, hoe het werkt en hoe je deze kunt gebruiken om ontwerpen te importeren en exporteren in WordPress.  
-
----
-
-## 📘 Wat is dit?  
-
-Deze repository bevat JSON-bestanden die pagina-ontwerpen bevatten, gemaakt met de Divi Builder. Met behulp van deze bestanden kun je ontwerpen eenvoudig exporteren van de ene WordPress-website en importeren naar een andere. Dit maakt het delen en hergebruiken van ontwerpen efficiënt en tijdbesparend.  
+Welkom bij deze repository! Hierin zijn de WordPress-pagina's als JSON-bestanden, alle stukken apart geschreven code (html, css, javascript, php en sql) en de code voor de wenskaarten opgeslagen speciaal geoptimaliseerd voor gebruik met de Divi Builder. In dit document wordt uitgelegd wat deze repository inhoudt, hoe het werkt en hoe je deze kunt gebruiken om ontwerpen te importeren en exporteren in WordPress.
 
 ---
 
@@ -42,7 +36,17 @@ De Divi Builder biedt functionaliteit om pagina-ontwerpen op te slaan als JSON-b
 
 ## 📂 Repository-structuur  
 
-- **/json/**: Map waarin alle JSON-bestanden worden opgeslagen. Gebruik duidelijke en beschrijvende bestandsnamen zoals `homepage.json` of `over-ons.json`.  
+- **Main**: Map waarin alle broncode voor de pagina's die zijn gemaakt en aangepast is opgeslagen
+- **Main/Code**: Map waarin alle aparte geschreven code is opgeslagen (html, css, javascript, php en sql)
+- **Main/JSON-Templates**: Map waarin alle JSON templates zijn opgeslagen
+- **Main/Code/js/Website**: Map waarin alle aparte geschreven javascript code voor de website van CHIEFS of IT is opgeslagen
+- **Main/Code/js/Wenskaarten**: Map waarin alle aparte geschreven javascript code voor de wenskaart templates is opgeslagen 
+- **Main/Code/css/Website**: Map waarin alle aparte geschreven css code voor de website van CHIEFS of IT is opgeslagen
+- **Main/Code/css/Wenskaarten**: Map waarin alle aparte geschreven css code voor de wenskaart templates is opgeslagen
+- **Main/Code/html/Website**: Map waarin alle aparte geschreven html code voor de website van CHIEFS of IT is opgeslagen
+- **Main/Code/html/Wenskaarten**: Map waarin alle aparte geschreven html code voor de wenskaart templates is opgeslagen
+- **Main/JSON-Templates/Website**: Map waarin alle JSON templates voor de website van CHIEFS of IT is opgeslagen
+- **Main/JSON-Templates/Wenskaarten**: Map waarin alle JSON templates voor de wenskaarten is opgeslagen
 - **README.md**: Dit document met uitleg over het gebruik van de repository.  
 
 ---
