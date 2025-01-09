@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Chiefs Feestkaarten</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='bootstrap/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <!-- <nav class="navbar navbar-dark bg-dark">
+        <div class="p-2 text-light">Test</div>
+    </nav> -->
+    <div class="container-fluid border-decorations">
+        <img class="float-start vh-100 border-decoration-left" src="img/decorationleft.png"></img>
+        <img class="float-end vh-100 border-decoration-right" src="img/decorationright.png"></img>
+    </div>
+    <div id="home-page">
+        <div class="row">
+            <img class="title" src="img/happy-holidays-text-banner-png-17.png">
+        </div>
+        <div class="row title-caption">
+            <p style="color: white; text-shadow: 0px 1px 2px black; text-align:center;">Maak de feestdagen extra bijzonder met gepersonaliseerde cadeaukaarten van Chiefs of IT! Verras collega’s, klanten of partners met een origineel geschenk voor Sinterklaas en Kerst.</p>
+        </div>
+        <div class="row">
+            <div class="template-scroller">
+                <div class="row">
+                    <ul class="nav nav-tabs justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sinterklaas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kerst</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex flex-row catalog-row">
+                    <!-- dynamically fill this row with catalog items using js -->
+                    <!-- <img class="catalog-item" src="img/287-2879028_christmas-card-background-christmas-card-frame-hd.png">
+                    <img class="catalog-item" src="img/86c76dbd67aa33c2426325bcf066cbba.jpg">
+                    <img class="catalog-item" src="img/86c76dbd67aa33c2426325bcf066cbba.jpg">
+                    <img class="catalog-item" src="img/86c76dbd67aa33c2426325bcf066cbba.jpg">
+                    <img class="catalog-item" src="img/86c76dbd67aa33c2426325bcf066cbba.jpg"> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="editor-page">
+        <div class="editor-blackout"></div>
+        <div class="row">
+            <div class="template-scroller template-scroller-editor">
+                <div class="row">
+                    <ul class="nav nav-tabs justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sinterklaas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kerst</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex flex catalog-row">
+                    <!-- dynamically fill this row with catalog items using js -->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="editor">
+                <div class="row">
+                    <div class="col-4">
+                        <form>
+                            <label for="greeting">Aanhef</label><br>
+                            <input type="text" id="greeting" name="greeting" maxlength="20">
+                            <label for="message">Bericht</label><br>
+                            <input type="text" id="message" name="message" maxlength="300">
+                            <label for="closer">Afsluiter</label><br>
+                            <input type="text" id="closer" name="closer" maxlength="20">
+                            <input type="submit" value="Genereren">
+                        </form>
+                    </div>
+                    <div class="col-8">
+                        <img class="editor-preview">
+                        <div class="editor-preview-content" id="editor-preview-content-greeting">aanhef</div>
+                        <div class="editor-preview-content" id="editor-preview-content-message">bericht</div>
+                        <div class="editor-preview-content" id="editor-preview-content-closer">afsluiter</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src='main.js'></script>
