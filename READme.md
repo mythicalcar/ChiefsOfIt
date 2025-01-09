@@ -44,7 +44,7 @@ JSON files:
 - - **Main/JSON-Templates/Website**: Map waarin alle JSON templates voor de website van CHIEFS of IT is opgeslagen
 - **Main/JSON-Templates/Wenskaarten**: Map waarin alle JSON templates voor de wenskaarten is opgeslagen
 
-- Volledige pagina's:
+Volledige pagina's:
 - **Main/Code/full pages/**: Map waarin alle volledige pagina's staan gemaakt met code (html, css en javascript)
 
 Javascript files:
