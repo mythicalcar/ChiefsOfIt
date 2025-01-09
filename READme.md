@@ -38,14 +38,12 @@ De Divi Builder biedt functionaliteit om pagina-ontwerpen op te slaan als JSON-b
 
 - **Main**: Map waarin alle broncode voor de pagina's die zijn gemaakt en aangepast is opgeslagen
 - **Main/Code**: Map waarin alle aparte geschreven code is opgeslagen (html, css, javascript, php en sql)
+- **Main/Code/full pages/**: Map waarin alle volledige pagina's staan gemaakt met code (html, css en javascript)
 
 JSON files:
 - **Main/JSON-Templates**: Map waarin alle JSON templates zijn opgeslagen
 - **Main/JSON-Templates/Website**: Map waarin alle JSON templates voor de website van CHIEFS of IT is opgeslagen
 - **Main/JSON-Templates/Wenskaarten**: Map waarin alle JSON templates voor de wenskaarten is opgeslagen
-
-Volledige pagina's:
-- **Main/Code/full pages/**: Map waarin alle volledige pagina's staan gemaakt met code (html, css en javascript)
 
 Javascript files:
 - **Main/Code/js/Website**: Map waarin alle aparte geschreven javascript code voor de website van CHIEFS of IT is opgeslagen
