@@ -38,15 +38,25 @@ De Divi Builder biedt functionaliteit om pagina-ontwerpen op te slaan als JSON-b
 
 - **Main**: Map waarin alle broncode voor de pagina's die zijn gemaakt en aangepast is opgeslagen
 - **Main/Code**: Map waarin alle aparte geschreven code is opgeslagen (html, css, javascript, php en sql)
+
+JSON files:
 - **Main/JSON-Templates**: Map waarin alle JSON templates zijn opgeslagen
+- - **Main/JSON-Templates/Website**: Map waarin alle JSON templates voor de website van CHIEFS of IT is opgeslagen
+- **Main/JSON-Templates/Wenskaarten**: Map waarin alle JSON templates voor de wenskaarten is opgeslagen
+
+Javascript files:
 - **Main/Code/js/Website**: Map waarin alle aparte geschreven javascript code voor de website van CHIEFS of IT is opgeslagen
-- **Main/Code/js/Wenskaarten**: Map waarin alle aparte geschreven javascript code voor de wenskaart templates is opgeslagen 
+- **Main/Code/js/Wenskaarten**: Map waarin alle aparte geschreven javascript code voor de wenskaart templates is opgeslagen
+
+CSS files:
 - **Main/Code/css/Website**: Map waarin alle aparte geschreven css code voor de website van CHIEFS of IT is opgeslagen
 - **Main/Code/css/Wenskaarten**: Map waarin alle aparte geschreven css code voor de wenskaart templates is opgeslagen
+
+HTML files:
 - **Main/Code/html/Website**: Map waarin alle aparte geschreven html code voor de website van CHIEFS of IT is opgeslagen
 - **Main/Code/html/Wenskaarten**: Map waarin alle aparte geschreven html code voor de wenskaart templates is opgeslagen
-- **Main/JSON-Templates/Website**: Map waarin alle JSON templates voor de website van CHIEFS of IT is opgeslagen
-- **Main/JSON-Templates/Wenskaarten**: Map waarin alle JSON templates voor de wenskaarten is opgeslagen
+
+Gebruiksaanwijzing voor deze repository:
 - **README.md**: Dit document met uitleg over het gebruik van de repository.  
 
 ---
