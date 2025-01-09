@@ -41,7 +41,7 @@ De Divi Builder biedt functionaliteit om pagina-ontwerpen op te slaan als JSON-b
 
 JSON files:
 - **Main/JSON-Templates**: Map waarin alle JSON templates zijn opgeslagen
-- - **Main/JSON-Templates/Website**: Map waarin alle JSON templates voor de website van CHIEFS of IT is opgeslagen
+- **Main/JSON-Templates/Website**: Map waarin alle JSON templates voor de website van CHIEFS of IT is opgeslagen
 - **Main/JSON-Templates/Wenskaarten**: Map waarin alle JSON templates voor de wenskaarten is opgeslagen
 
 Volledige pagina's:
